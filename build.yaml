@@ -1,4 +1,11 @@
 include:
+  - board: nice_nano_v2
+    shield: totme_dongle dongle_display
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+    artifact-name: totme_dongle_oled
+  - board: nice_nano_v2
+    shield: settings_reset
   - board: seeeduino_xiao_ble
     shield: totem_left rgbled_adapter
     snippet: studio-rpc-usb-uart
