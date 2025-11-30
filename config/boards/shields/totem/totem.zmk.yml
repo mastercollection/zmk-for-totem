@@ -8,10 +8,6 @@ features:
   - keys
   - display
   - studio
-outputs:
-  - usb
-  - ble
 siblings:
-  - totme_dongle
   - totem_left
   - totem_right
