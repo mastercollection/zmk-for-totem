@@ -9,6 +9,7 @@ features:
   - display
   - studio
 outputs:
+  - usb
   - ble
 siblings:
   - totme_dongle
