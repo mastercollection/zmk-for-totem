@@ -14,7 +14,6 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-		zmk,battery = &vbatt;
         zmk,physical-layout = &physical_layout0;
     };
 
@@ -38,9 +37,5 @@
         label = "KSCAN";
 		wakeup-source;
         diode-direction = "col2row"; 
-    };
-
-	vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
     };
 };
