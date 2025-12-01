@@ -33,9 +33,9 @@
         >;
     };
 
+
     kscan0: kscan_0 {
-        label = "KSCAN";
-		wakeup-source;
-        diode-direction = "col2row"; 
+        wakeup-source;
+		diode-direction = "col2row";
     };
 };
