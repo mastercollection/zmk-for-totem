@@ -33,46 +33,55 @@
         c1 {
             bindings = <&kp LBKT>;
             key-positions = <3 2>;
+            timeout-ms = <20>;
         };
 
         c2 {
             bindings = <&kp RBKT>;
             key-positions = <6 7>;
+            timeout-ms = <20>;
         };
 
         c3 {
             bindings = <&kp LPAR>;
             key-positions = <13 12>;
+            timeout-ms = <20>;
         };
 
         c4 {
             bindings = <&kp RPAR>;
             key-positions = <16 17>;
+            timeout-ms = <20>;
         };
 
         c5 {
             bindings = <&kp LBRC>;
             key-positions = <24 23>;
+            timeout-ms = <20>;
         };
 
         c6 {
             bindings = <&kp RBRC>;
             key-positions = <27 28>;
+            timeout-ms = <20>;
         };
 
         c7 {
             bindings = <&kp BSLH>;
             key-positions = <4 5>;
+            timeout-ms = <20>;
         };
 
         c8 {
             bindings = <&kp PIPE>;
             key-positions = <14 15>;
+            timeout-ms = <20>;
         };
 
         c9 {
             bindings = <&kp TAB>;
             key-positions = <18 19>;
+            timeout-ms = <20>;
         };
     };
 
