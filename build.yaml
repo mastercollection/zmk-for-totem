@@ -1,15 +1,15 @@
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: totem_left rgbled_adapter
     snippet: studio-rpc-usb-uart
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: totem_right rgbled_adapter
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: totem_central dongle_display
     snippet: studio-rpc-usb-uart
     artifact-name: totem_central
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
 # there is no settingsreset (needed) for the XIAO
