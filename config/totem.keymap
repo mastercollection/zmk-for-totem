@@ -27,9 +27,7 @@
     tapping-term-ms = <200>;
 };
 
-&lt {
-    quick-tap-ms = <185>;
-};
+&lt { quick-tap-ms = <185>; };
 
 / {
     combos {
@@ -125,10 +123,10 @@
 
         sym_layer {
             bindings = <
-        &trans    &trans    &kp LS(DQT)   &kp APOS      &trans           &trans        &kp LS(AMPS)  &kp LS(STAR)   &kp LS(TILDE)  &trans
-        &kp LBKT  &kp RBKT  &kp LS(LBRC)  &kp LS(RBRC)  &kp BSLH         &kp EQUAL     &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp GRAVE
-&trans  &trans    &trans    &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(PIPE)     &kp LS(PLUS)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(TILDE)  &trans
-                            &trans        &kp MINUS     &kp LS(MINUS)    &trans        &trans        &trans
+        &trans  &trans  &kp LS(DQT)  &kp APOS   &trans           &trans        &kp LS(AMPS)  &kp LS(STAR)   &kp LS(TILDE)  &trans
+        &trans  &trans  &trans       &trans     &trans           &kp EQUAL     &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp GRAVE
+&trans  &trans  &trans  &trans       &trans     &trans           &kp LS(PLUS)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(TILDE)  &trans
+                        &trans       &kp MINUS  &kp LS(MINUS)    &trans        &trans        &trans
             >;
 
             label = "SYM";
